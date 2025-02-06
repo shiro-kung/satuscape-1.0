@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Dream Destinations - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="attractions.html" class="nav-link">Attractions</a></li>
+                <li><a href="accommodation.html" class="nav-link">Accommodation</a></li>
+                <li><a href="cafes.html" class="nav-link">Cafe and Restaurants</a></li>
+                <li><a href="market.html" class="nav-link">Market</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="satun-info">
+        <h2 id="info-satun-title">Information About Satun Province</h2>
+        <div class="info-section">
+            <div class="info-slideshow">
+                <div class="slide-container">
+                    <img src="https://image.posttoday.com/media/content/2021/09/06/314E17EE3955F2D3814A146C77DD6EEB.jpeg?x-image-process=style/lg-webp" alt="General Information 2" class="slide-image general-info">
+                </div>
+                
+            </div>
+            <div class="info-content">
+                <h3><i class="fas fa-map-marker-alt"></i> <span id="general-info-title">General Information</span></h3>
+                <p id="general-info-description">Satun is a province in southern Thailand, bordering the Andaman Sea and Malaysia. It is known for its serene beauty and rich cultural heritage.</p>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-slideshow">
+                <div class="slide-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ao_Ta_Lo_Woo_Pier%2C_Ko_Tarutao_-_Tarutao_National_Park_%2816750772789%29.jpg/1200px-Ao_Ta_Lo_Woo_Pier%2C_Ko_Tarutao_-_Tarutao_National_Park_%2816750772789%29.jpg" alt="Attractions" class="slide-image attractions-info">
+                    <img src="https://storage.googleapis.com/tripniceday/uploads/places/1625631174621.webp" alt="Attractions 2" class="slide-image attractions-info">
+                    <img src="https://files.thailandtourismdirectory.go.th/assets/upload/2017/11/03/201711039f714d5d31d874164d40c10239269a16093219.JPG" alt="Attractions 3" class="slide-image attractions-info">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDEvIU40CIRxlHABg7uT98nsIWL60PvrdbA&s" alt="Attractions 4" class="slide-image attractions-info">                    
+                </div>
+                <button class="prev" onclick="plusSlides(-1, 1)">&#10094;</button>
+                <button class="next" onclick="plusSlides(1, 1)">&#10095;</button>
+            </div>
+            <div class="info-content">
+                <h3><i class="fas fa-landmark"></i> <span id="attractions-title">Top Attractions</span></h3>
+                <ul>
+                    <li><strong>Tarutao National Park:</strong> <span id="attraction-1">A stunning archipelago with crystal-clear waters and diverse marine life.</span></li>
+                    <li><strong>Kuden Mansion:</strong> <span id="attraction-2">A historic building with unique architecture and cultural significance.</span></li>
+                    <li><strong>Phu Pha Phet Cave:</strong> <span id="attraction-3">One of the largest caves in Thailand, known for its impressive stalactites and stalagmites.</span></li>
+                    <li><strong>Wang Sai Thong Waterfall:</strong> <span id="attraction-4">A beautiful waterfall with limestone terraces, perfect for relaxation and exploration.</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-slideshow">
+                <div class="slide-container">
+                    <img src="https://freshket.co/blog/wp-content/uploads/2022/09/d386db_defc14e773fe466ca544f9b26f62da48_mv2-1024x1024.webp" alt="Local Cuisine" class="slide-image local-cuisine-info">
+                    <img src="https://img.wongnai.com/p/1920x0/2021/10/31/c828598a20384cc5b0920c3ca57ad0f3.jpg" alt="Local Cuisine 2" class="slide-image local-cuisine-info">
+                </div>
+                <button class="prev" onclick="plusSlides(-1, 2)">&#10094;</button>
+                <button class="next" onclick="plusSlides(1, 2)">&#10095;</button>
+            </div>
+            <div class="info-content">
+                <h3><i class="fas fa-utensils"></i> <span id="local-cuisine-title">Local Cuisine</span></h3>
+                <p id="local-cuisine-description">Satun offers a variety of delicious local dishes, including fresh seafood, spicy curries, and unique southern Thai flavors.</p>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-slideshow">
+                <div class="slide-container">
+                    <img src="https://i.pinimg.com/736x/05/4a/fc/054afcaedf35f8b2ba8ba567252eae35.jpg" alt="Travel Tips" class="slide-image travel-tips-info">
+                </div>
+            </div>
+            <div class="info-content">
+                <h3><i class="fas fa-lightbulb"></i> <span id="travel-tips-title">Travel Tips</span></h3>
+                <ul>
+                    <li id="travel-tip-1">Best time to visit: November to April for the best weather conditions.</li>
+                    <li id="travel-tip-2">Getting around: Renting a scooter or using local transport is convenient.</li>
+                    <li id="travel-tip-3">Respect local customs: Dress modestly and be mindful of cultural norms.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info-section official-website">
+            <div class="info-content">
+                <p id="official-website"><strong><i class="fas fa-globe"></i> Official Website:</strong> <a href="https://www.satun.go.th/frontpage" target="_blank">www.satun.go.th</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="video-container">
+        <iframe 
+            src="https://www.youtube.com/embed/ng5qaURa78U?autoplay=1&loop=1&mute=1&playlist=ng5qaURa78U" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
+    </div>
+<div class="content">
+    <h2 id="attractions-title">Hot Attractions</h2>
+    <div class="packages">
+        <div class="package-card">
+            <div class="img-container">
+                <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQetkom3eJoGmj1unhK9aIbF-MzZdYywbBJP5yrQ9fZx2kl0xO9-zpLRecpj7UNLKQDV_uO1_CGMzlFFz2ojr9KSEw807LdM3R8yYcBVA" alt="Lipe Island">
+            </div>
+            <h3>Lipe Island</h3>
+            <p>Mueang Satun</p>
+            <button onclick="location.href='natural.html'">Discover More</button>
+        </div>
+        <div class="package-card">
+            <div class="img-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1POP-iSBq9nscAkhyY9tbC0pLSi6PIPkCFQ&s" alt="Museum Kuden Mansion">
+            </div>
+            <h3>Museum Kuden Mansion</h3>
+            <p>Mueang Satun</p>
+            <button onclick="location.href='cultural.html'">Discover More</button>
+        </div>
+        <div class="package-card">
+            <div class="img-container">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/cf/98/2d/phu-pha-petch-caves.jpg?w=1200&h=-1&s=1" alt="Phu Pha Phet Cave">
+            </div>
+            <h3>Phu Pha Phet Cave</h3>
+            <p>Manang</p>
+            <button onclick="location.href='natural.html'">Discover More</button>
+        </div>
+        <div class="package-card">
+            <div class="img-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDEvIU40CIRxlHABg7uT98nsIWL60PvrdbA&s" alt="Wang Sai Thong Waterfall">
+            </div>
+            <h3>Wang Sai Thong Waterfall</h3>
+            <p>Manang</p>
+            <button onclick="location.href='natural.html'">Discover More</button>
+        </div>
+    </div>
+    
+    <h1 id="cafes-title">Hot Cafe and Restaurants</h2>
+    <div class="packages">
+        <div class="package-card">
+            <div class="img-container">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipOumqvRov1tLrV-Ejcs4kpiK_w-5ZdLIEwWh7AK=s680-w680-h510" alt="Bara Bara">
+            </div>
+            <h3>Bara Bara</h3>
+            <p>Langu</p>
+            <button onclick="location.href='cafes.html'">Discover More</button>
+        </div>
+        <div class="package-card">
+            <div class="img-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7UDCizfdX-iprndUhTsVUbYKgnXM47KfOtg&s" alt="Museum Kuden Mansion">
+            </div>
+            <h3>De Bua</h3>
+            <p>Mueang Satun</p>
+            <button onclick="location.href='cafes.html'">Discover More</button>
+        </div>
+        <div class="package-card">
+            <div class="img-container">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipOl7Q-mSZ-nbnERO3gRv1cunLHD4Ae39ClxiJaQ=s680-w680-h510" alt="Google Drive Image" >
+            </div>
+            <h3>Roti mataba</h3>
+            <p>Mueang Satun</p>
+            <button onclick="location.href='cafes.html'">Discover More</button>
+        </div>
+        <div class="package-card">
+            <div class="img-container">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipN2YDAzKnOmKWdCT2_bMVnQ-pKAB9kM_Hq7J5ej=s680-w680-h510" alt="Wang Sai Thong Waterfall">
+            </div>
+            <h3>Na Lagu Coffeehome</h3>
+            <p>Langu</p>
+            <button onclick="location.href='cafes.html'">Discover More</button>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2025 Dream Destinations. All rights reserved.</p>
+</footer>
+
+<script src="js/scripts.js"></script>

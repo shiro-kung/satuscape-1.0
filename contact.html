@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dream Destinations</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="attractions.html" class="nav-link">Attractions</a></li>
+                <li><a href="accommodation.html" class="nav-link">Accommodation</a></li>
+                <li><a href="cafes.html" class="nav-link">Cafe and Restaurants</a></li>
+                <li><a href="market.html" class="nav-link">Market</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="logo-container">
+        <img src="https://i.pinimg.com/736x/2f/53/0d/2f530d26c59879eb12c3bcb669309d12.jpg" alt="School Logo" class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfuvLVv1cybx6LLMJQmrXzoJlCZpObYZjhHQ&s" alt="Project Logo" class="logo">
+        <img src="https://www.phiman.ac.th/images/header-24-1/hatyaiwit_0004.png" alt="School Logo" class="logo">
+    </div>
+    <div class="hero-content">
+    <div class="content">
+        <h2 id="contact-title">We'd Love to Hear from You</h2>
+        <div class="contact-container">
+            <div class="contact-details">
+                <h3>Contact Information</h3>
+                <p><strong>Address:</strong> 2 Khuhaprawes 1 Alley, Phiman, Mueang Satun District, Satun 91000</p>
+                <p><strong>Phone:</strong> 074-711-086</p>
+                <p><strong>Website:</strong> <a href="https://www.phiman.ac.th/frontpage" target="_blank">Phiman.ac.th</a></p>
+                <div class="logos">
+                    <a href="https://www.facebook.com/EpCepPhiman/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvRCla37e5OCPSzkUgK3nW9EwEUy_UrP8Xg&s" alt="Facebook" width="20"></a>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15852.688049191554!2d100.056640917111!3d6.625544794340407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304c8d429cb6b585%3A0x4f183071567def09!2sPhiman%20Pittayasan%20School!5e0!3m2!1sen!2sth!4v1737199149294!5m2!1sen!2sth" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form id="contact-form" method="post" action="contact.php" class="contact-form" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button onclick="location.href='contact.html'"type="submit">Send Message</button>           
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Dream Destinations. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
