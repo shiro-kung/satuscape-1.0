@@ -1010,6 +1010,7 @@ button[type="submit"]:hover {
 }
 
 .attraction-item {
+  flex-wrap: wrap;
   flex: 1 1 calc(25% - 10px);
   box-sizing: border-box;
   border: 1px solid #ccc;
