@@ -1150,3 +1150,54 @@ button:hover {
   max-height: 200px;
   margin: 0 20px;
 }
+
+
+@media (max-width: 768px) {
+  header {
+    height: 40vh;
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+  }
+  .packages {
+    flex-direction: column;
+  }
+  .package-card {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .attractions-grid, .cafes-grid {
+    flex-direction: column;
+  }
+  .attraction-card, .cafe-card {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .category-buttons {
+    flex-direction: column;
+    height: auto;
+  }
+  .large-button {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 30vh;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 0.8rem;
+  }
+}
